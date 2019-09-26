@@ -4,7 +4,7 @@
 <aside id="colorlib-hero">
 <div class="flexslider">
 <ul class="slides">
-<li style="background-image: url(images/img_bg_1.jpg);">
+<li style="background-image: url('/../assets/images/img_bg_1.jpg');">
 <div class="overlay"></div>
 <div class="container">
 <div class="row">
@@ -23,7 +23,7 @@
 </div>
 </div>
 </li>
-<li style="background-image: url(images/img_bg_2.jpg);">
+<li style="background-image: url(../../../public/assets/images/img_bg_2.jpg);">
 <div class="overlay"></div>
 <div class="container">
 <div class="row">
