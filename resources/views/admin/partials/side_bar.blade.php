@@ -28,8 +28,8 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="index.html"><i class="fa fa-circle-o"></i> Menu 1</a></li>
-                    <li class="active"><a href="index2.html"><i class="fa fa-circle-o"></i> Menu 2</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i> Menu 1</a></li>
+                    <li class="active"><a href="#"><i class="fa fa-circle-o"></i> Menu 2</a></li>
                 </ul>
             </li>
         </ul>

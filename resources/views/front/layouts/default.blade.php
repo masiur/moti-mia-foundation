@@ -1,15 +1,14 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+<!DOCTYPE HTML>
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
     @include('front.partials.head')
 </head>
 <body>
-    @include('front.partials.header')
+    <!-- <div class="colorlib-loader"></div> -->
+    <div id="page">
+    @include('front.partials.navbar')
 
     @yield('content')
     @include('front.partials.footer')

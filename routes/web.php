@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'Dashboard\MainDashboardController@home')->name('home');
+Route::get('/', 'FrontController@index')->name('index');
 // Password Reset Routes...
 Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');
 Route::get('password/reset', 'Auth\ResetPasswordController@showLinkRequestForm')->name('password.request');
