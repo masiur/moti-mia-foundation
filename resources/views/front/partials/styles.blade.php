@@ -1,19 +1,32 @@
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 
-<link rel="stylesheet" href="{{ asset('assets/front/css/animate.css') }}">
+<!-- Favicon and Touch Icons -->
+<link href="images/favicon.png" rel="shortcut icon" type="image/png">
+<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+<link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+<link href="images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
 
-<link rel="stylesheet" href="{{ asset('assets/front/css/icomoon.css') }}">
+<!-- Stylesheet -->
+<link href="{{ asset('assets/front/assets/dist/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+<link href="{{ asset('assets/front/assets/dist/css/animate.min.css') }}" rel="stylesheet" type="text/css">
+<link href="{{ asset('assets/front/assets/dist/css/javascript-plugins-bundle.css') }}" rel="stylesheet"/>
 
-<link rel="stylesheet" href="{{ asset('assets/front/css/bootstrap.css') }}">
+<!-- CSS | menuzord megamenu skins -->
+<link href="{{ asset('assets/front/assets/dist/js/menuzord/css/menuzord.css') }}" rel="stylesheet"/>
 
-<link rel="stylesheet" href="{{ asset('assets/front/css/magnific-popup.css') }}">
+<!-- CSS | timeline -->
+<link href="{{ asset('assets/front/assets/dist/js/timeline-cp-responsive-vertical/timeline-cp-responsive-vertical.css') }}" rel="stylesheet" type="text/css">
 
-<link rel="stylesheet" href="{{ asset('assets/front/css/flexslider.css') }}">
+<!-- CSS | Main style file -->
+<link href="{{ asset('assets/front/assets/dist/css/style-main.css') }}" rel="stylesheet" type="text/css">
+<link id="menuzord-menu-skins" href="{{ asset('assets/front/assets/dist/js/menuzord/css/skins/menuzord-rounded-boxed.css') }}" rel="stylesheet"/>
 
-<link rel="stylesheet" href="{{ asset('assets/front/css/owl.carousel.min.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/front/css/owl.theme.default.min.css') }}">
+<!-- CSS | Responsive media queries -->
+<link href="{{ asset('assets/front/assets/dist/css/responsive.css') }}" rel="stylesheet" type="text/css">
+<!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
 
-<link rel="stylesheet" href="{{ asset('assets/front/css/style.css') }}">
+<!-- CSS | Theme Color -->
+<link href="{{ asset('assets/front/assets/dist/css/colors/theme-skin-color-set1.css') }}" rel="stylesheet" type="text/css">
 
-<script src="{{ asset('assets/front/js/modernizr-2.6.2.min.js') }}" type="2de75dfc2ec1df4520e6bc6d-text/javascript"></script>
+
 @yield('styles')
