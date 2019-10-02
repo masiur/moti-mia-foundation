@@ -1,5 +1,5 @@
-    <header id="header" class="header header-layout-type-header-2rows">
-        <div class="header-top ">
+<header id="header" class="header header-layout-type-header-2rows">
+        <!-- <div class="header-top ">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-auto header-top-left align-self-center text-center text-xl-left">
@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="header-nav">
             <div class="header-nav-wrapper navbar-scrolltofixed green">
                 <div class="menuzord-container header-nav-container green ">
@@ -36,17 +36,17 @@
                                     <div class="col-xs-auto ml-auto pr-0 align-self-center">
                                         <nav id="top-primary-nav" class="menuzord green" data-effect="fade" data-animation="none" data-align="right">
                                             <ul id="main-nav" class="menuzord-menu">
-                                                <li class="active"><a href="#">Home</a>
-                                                    <ul class="dropdown">
+                                                <li class=""><a href="{{ route('index') }}">Home</a>
+                                                    <!-- <ul class="dropdown">
                                                         <li><a href="index-mp-layout1.html">Index-mp-layout1</a></li>
                                                         <li><a href="index-mp-layout2.html">Index-mp-layout2</a></li>
                                                         <li><a href="index-mp-layout3.html">Index-mp-layout3</a></li>
                                                         <li><a href="index-mp-layout4.html">Index-mp-layout4</a></li>
-                                                    </ul>
+                                                    </ul> -->
                                                 </li>
-                                                <li><a href="page-about.html">About</a></li>
-                                                <li><a href="#">Pages</a>
-                                                    <ul class="dropdown">
+                                                <li><a href="{{ route('about') }}">About</a></li>
+                                                <li><a href="{{ route('gallery') }}">Gallery</a>
+                                                    <!-- <ul class="dropdown">
                                                         <li><a href="#home">Volunteer</a>
                                                             <ul class="dropdown">
                                                                 <li><a href="page-volunteer-carousel.html">Volunteer Carousel</a></li>
@@ -54,22 +54,22 @@
                                                             </ul>
                                                         </li>
                                                         <li><a href="page-gallery.html">Gallery</a>
-                                                    </ul>
+                                                    </ul> -->
                                                 </li>
-                                                <li><a href="#home">Causes</a>
+                                                <!-- <li><a href="#home">Causes</a>
                                                     <ul class="dropdown">
                                                         <li><a href="page-causes-grid.html">Causes Gird</a></li>
                                                         <li><a href="page-causes-carousel.html">Causes Carousel</a></li>
                                                         <li><a href="page-causes-details.html">Causes Deatils</a></li>
                                                     </ul>
-                                                </li>
-                                                <li><a href="#">Blog</a>
-                                                    <ul class="dropdown">
+                                                </li> -->
+                                                <li><a href="{{ route('events') }}">Events</a>
+                                                    <!-- <ul class="dropdown">
                                                         <li><a href="news-grid.html">News Grid</a></li>
                                                         <li><a href="news-details.html">News Details</a></li>
-                                                    </ul>
+                                                    </ul> -->
                                                 </li>
-                                                <li><a href="page-contact.html">Contact</a></li>
+                                                <li><a href="{{ route('contact') }}">Contact</a></li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -81,15 +81,15 @@
                                         </nav>
                                     </div>
                                 </div>
-                                <div id="top-nav-search-form" class="clearfix">
+                                <!-- <div id="top-nav-search-form" class="clearfix">
                                     <form action="#" method="GET">
                                         <input type="text" name="s" value="" placeholder="Type and Press Enter..." autocomplete="off"/>
                                     </form>
-                                    <a href="#" id="close-search-btn"><i class="icon_close"></i></a> </div>
+                                    <a href="#" id="close-search-btn"><i class="icon_close"></i></a> </div> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+</header>

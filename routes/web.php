@@ -12,6 +12,17 @@
 */
 
 Route::get('/', 'FrontController@index')->name('index');
+Route::get('events', 'FrontController@events')->name('events');
+Route::get('contact', 'FrontController@contact')->name('contact');
+Route::get('about', 'FrontController@about')->name('about');
+Route::get('gallery', 'FrontController@gallery')->name('gallery');
+
+
+
+
+
+
+
 // Password Reset Routes...
 Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');
 Route::get('password/reset', 'Auth\ResetPasswordController@showLinkRequestForm')->name('password.request');

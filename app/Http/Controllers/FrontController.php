@@ -10,4 +10,24 @@ class FrontController extends Controller
     {
     	return view('front.index');
     }
+
+    public function events()
+    {
+    	return view('front.events');
+    }
+
+    public function contact()
+    {
+    	return view('front.contact');
+    }
+
+    public function gallery()
+    {
+    	return view('front.gallery');
+    }
+
+    public function about()
+    {
+    	return view('front.about');
+    }
 }

@@ -509,7 +509,7 @@
 		</section>
 
 		<!-- About-->
-		<section class="divider layer-overlay overlay-white-6" data-tm-bg-img="images/bg/bg.png">
+		<!-- <section class="divider layer-overlay overlay-white-6" data-tm-bg-img="images/bg/bg.png">
 			<div class="container">
 				<div class="section-content">
 					<div class="row">
@@ -597,9 +597,9 @@
 					</div>					
 				</div>
 			</div>
-		</section>
+		</section> -->
 
-		<section>
+		<!-- <section>
 			<div class="container pt-0">
 				<div class="section-content">
 					<div class="row mt-sm-80">
@@ -663,10 +663,10 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<!-- Divider -->
-		<section>
+		<!-- <section>
 			<div class="container-fluid p-0">
 				<div class="section-content">
 					<div class="row">
@@ -694,7 +694,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<!-- Gallery -->
 		<section>
