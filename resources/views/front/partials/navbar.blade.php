@@ -29,8 +29,8 @@
                             <div class="col">
                                 <div class="row header-nav-col-row">
                                     <div class="col-xs-auto align-self-center">
-                                        <a class="menuzord-brand site-brand" href="index-mp-layout1.html">
-                                            <img class="logo-default logo-1x" src="images/logo-wide.png" alt="Logo">
+                                        <a class="menuzord-brand site-brand" href="route('index') }}">
+                                            <img class="logo-default logo-1x" src="{{ asset('assets/front/images/logo.png') }}" alt="Logo" style="max-height: 60px">
                                         </a>
                                     </div>
                                     <div class="col-xs-auto ml-auto pr-0 align-self-center">

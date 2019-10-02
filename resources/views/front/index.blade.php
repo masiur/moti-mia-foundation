@@ -382,7 +382,7 @@
 								<div class="title-wrapper">
 									<h2 class="title">
 										<span class="">Recent</span>
-										<span class="text-theme-colored1">Campaigns</span>
+										<span class="text-theme-colored1">Events</span>
 									</h2>
 									<div class="title-seperator-line"></div>
 									<div class="paragraph">
@@ -1202,7 +1202,7 @@
 								<div class="title-wrapper">
 									<h2 class="title text-white">
 										<span class="">What</span>
-										<span class="">Donors</span>
+										<span class="">People</span>
 										<span class="">Say</span>
 									</h2>
 									<div class="title-seperator-line"></div>
@@ -1327,6 +1327,7 @@
 		</section>					
 
 		<!-- Blog -->
+		{{-- 
 		<section class="bg-silver-light">
 			<div class="container pb-60">
 				<div class="section-title text-center">
@@ -1487,8 +1488,10 @@
 				</div>
 			</div>
 		</section>
+		--}}
 
 		<!-- Client -->
+		{{-- 
 		<section>
 			<div class="container pb-70">
 				<div class="section-title">
@@ -1548,6 +1551,7 @@
 				</div>
 			</div>
 		</section>
+		--}}
 	</div>
 	<!-- end main-content -->
 

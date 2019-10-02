@@ -45,7 +45,7 @@
                     Office Location
                   </h3>
                   <div class="content">
-                    <p>121 King Street, Collins Street,&nbsp; 3000 Australia</p>
+                    <p>Porichorrza clinic, Dewanpara, Jamalpur ,&nbsp; 2000 Bangladesh</p>
                   </div>
                 </div>
                 <div class="clearfix"></div>
@@ -63,7 +63,7 @@
                     Phone No
                   </h3>
                   <div class="content">
-                    <p>1-202-555-0149, 202-555-0149, +1-202-555-0136</p>
+                    <p>+880 1716 473 181, +880 1716 473 181,</p>
                   </div>
                 </div>
                 <div class="clearfix"></div>
@@ -81,7 +81,7 @@
                     Email Us
                   </h3>
                   <div class="content">
-                    <p>you@yourdomain.com, me@yourdomain.com</p>
+                    <p>info@motimiafoundation.org, swadhin@gmail.com</p>
                   </div>
                 </div>
                 <div class="clearfix"></div>
@@ -101,10 +101,10 @@
           </div>
           <div class="col-md-7">
             <h3 class="line-bottom mt-sm-30 mb-30">Interested in discussing?</h3>
-            <p class="lead">We offer a no cost, no obligation consultation so we can get to know you and your goals.</p>
+            <!-- <p class="lead">We offer a no cost, no obligation consultation so we can get to know you and your goals.</p> -->
 
             <!-- Contact Form -->
-            <form id="contact_form" name="contact_form" class="" action="http://html.kodesolution.live/html/nonprofit/charity/charito/v2/demo/includes/sendmail.php" method="post">
+            <form id="contact_form" name="contact_form" class="" action="#" method="post">
               <div class="row">
                 <div class="col-sm-6">
                   <div class="form-group">
