@@ -29,7 +29,7 @@
                             <div class="col">
                                 <div class="row header-nav-col-row">
                                     <div class="col-xs-auto align-self-center">
-                                        <a class="menuzord-brand site-brand" href="route('index') }}">
+                                        <a class="menuzord-brand site-brand" href="{{ route('index') }}">
                                             <img class="logo-default logo-1x" src="{{ asset('assets/front/images/logo.png') }}" alt="Logo" style="max-height: 60px">
                                         </a>
                                     </div>

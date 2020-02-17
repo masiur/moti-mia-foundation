@@ -17,7 +17,7 @@
 									<!-- SLIDE  -->
 									<li data-index="rs-1" data-transition="slidingoverlayleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="http://wp.kodesolution.live/nonprofit/charity/charito/demo/wp-content/uploads/sites/2/revslider/charito-revolution-slider-fullscreen/slider_bg_03-100x50.jpg"  data-rotate="0"  data-fstransition="slidingoverlayleft" data-fsmasterspeed="1500" data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 										<!-- MAIN IMAGE -->
-										<img src="../../../../../../../wp.kodesolution.live/nonprofit/charity/charito/demo/wp-content/uploads/sites/2/revslider/charito-revolution-slider-fullscreen/slider_bg_03.jpg"  alt="" title="Index Multipage Layout2"  data-bgposition="0% 40%" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="12" class="rev-slidebg" data-no-retina>
+										<img src="{{ asset('uploads/contents/photos/cover.jpg') }}"  alt="" title="Index Multipage Layout2"  data-bgposition="0% 40%" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="12" class="rev-slidebg" data-no-retina>
 										<!-- LAYERS -->
 										<!-- LAYER NR. 1 -->
 										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
@@ -31,13 +31,13 @@
 											data-whitespace="nowrap"
 											data-type="text" 
 											data-responsive_offset="on" 
-											data-frames='[{"delay":700,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+											data-frames='[{"delay":70,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 											data-textAlign="['right','right','right','center']"
 											data-paddingtop="[0,0,0,0]"
 											data-paddingright="[0,0,0,0]"
 											data-paddingbottom="[0,0,0,0]"
 											data-paddingleft="[0,0,0,0]"
-											style="z-index: 5;"><span class="text-white">raise your helping hand for</span> </div>
+											style="z-index: 5;"><span class="text-white">ভাষা সৈনিক ও মুক্তি সংগ্রামী মতি মিয়া ফাউন্ডেশন</span> </div>
 										<!-- LAYER NR. 2 -->
 										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
 											id="slide-1-layer-2" 
@@ -56,7 +56,7 @@
 											data-paddingright="[0,0,0,0]"
 											data-paddingbottom="[0,0,0,0]"
 											data-paddingleft="[0,0,0,0]"
-											style="z-index: 6;"><span class="text-theme-colored1">Helpless</span> </div>
+											style="z-index: 6;"><span class="text-theme-colored1"> {{--  Helpless --}} </span> </div>
 										<!-- LAYER NR. 3 -->
 										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
 											id="slide-1-layer-11" 
@@ -75,197 +75,197 @@
 											data-paddingright="[0,0,0,0]"
 											data-paddingbottom="[0,0,0,0]"
 											data-paddingleft="[0,0,0,0]"
-											style="z-index: 7;"><span class="text-white">Children</span> </div>
+											style="z-index: 7;"><span class="text-white"> {{--  Children --}} </span> </div>
 										<!-- LAYER NR. 4 -->
-										<div class="tp-caption rev-btn  rs-parallaxlevel-1" 
-											id="slide-1-layer-3" 
-											data-x="['right','right','right','center']" data-hoffset="['60','60','60','0']" 
-											data-y="['middle','middle','middle','middle']" data-voffset="['160','140','135','115']" 
-											data-fontsize="['18','16','18','16']"
-											data-lineheight="['17','17','17','20']"
-											data-letterspacing="['0','','','']"
-											data-width="none"
-											data-height="none"
-											data-whitespace="nowrap"
-											data-type="button" 
-											data-responsive_offset="on" 
-											data-responsive="off"
-											data-frames='[{"delay":1600,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(247,131,0);"}]'
-											data-textAlign="['inherit','inherit','inherit','inherit']"
-											data-paddingtop="[14,14,13,11]"
-											data-paddingright="[40,38,36,38]"
-											data-paddingbottom="[14,14,12,11]"
-											data-paddingleft="[40,38,36,38]"
-											style="z-index: 8; white-space: nowrap; font-size: 18px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Roboto;background-color:rgb(248,157,53);border-color:transparent;border-style:solid;border-width:3px 3px 3px 3px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Donate Now </div>
+{{--										<div class="tp-caption rev-btn  rs-parallaxlevel-1" --}}
+{{--											id="slide-1-layer-3" --}}
+{{--											data-x="['right','right','right','center']" data-hoffset="['60','60','60','0']" --}}
+{{--											data-y="['middle','middle','middle','middle']" data-voffset="['160','140','135','115']" --}}
+{{--											data-fontsize="['18','16','18','16']"--}}
+{{--											data-lineheight="['17','17','17','20']"--}}
+{{--											data-letterspacing="['0','','','']"--}}
+{{--											data-width="none"--}}
+{{--											data-height="none"--}}
+{{--											data-whitespace="nowrap"--}}
+{{--											data-type="button" --}}
+{{--											data-responsive_offset="on" --}}
+{{--											data-responsive="off"--}}
+{{--											data-frames='[{"delay":1600,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(247,131,0);"}]'--}}
+{{--											data-textAlign="['inherit','inherit','inherit','inherit']"--}}
+{{--											data-paddingtop="[14,14,13,11]"--}}
+{{--											data-paddingright="[40,38,36,38]"--}}
+{{--											data-paddingbottom="[14,14,12,11]"--}}
+{{--											data-paddingleft="[40,38,36,38]"--}}
+{{--											style="z-index: 8; white-space: nowrap; font-size: 18px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Roboto;background-color:rgb(248,157,53);border-color:transparent;border-style:solid;border-width:3px 3px 3px 3px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Donate Now </div>--}}
 									</li>
 									<!-- SLIDE  -->
-									<li data-index="rs-2" data-transition="slidingoverlayleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="http://wp.kodesolution.live/nonprofit/charity/charito/demo/wp-content/uploads/sites/2/revslider/charito-revolution-slider-fullscreen/slider_bg_02-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-										<!-- MAIN IMAGE -->
-										<img src="../../../../../../../wp.kodesolution.live/nonprofit/charity/charito/demo/wp-content/uploads/sites/2/revslider/charito-revolution-slider-fullscreen/slider_bg_02.jpg"  alt="" title="Index Multipage Layout2"  data-bgposition="0% 30%" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="12" class="rev-slidebg" data-no-retina>
-										<!-- LAYERS -->
-										<!-- LAYER NR. 5 -->
-										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
-											id="slide-2-layer-9" 
-											data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-											data-y="['middle','middle','middle','middle']" data-voffset="['-140','-140','-116','-136']" 
-											data-fontsize="['32','30','20','28']"
-											data-lineheight="['45','45','36','40']"
-											data-width="['239','206','247','215']"
-											data-height="['49','47','44','42']"
-											data-whitespace="nowrap"
-											data-type="text" 
-											data-responsive_offset="on" 
-											data-frames='[{"delay":700,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-											data-textAlign="['center','center','center','center']"
-											data-paddingtop="[0,0,0,0]"
-											data-paddingright="[0,0,0,0]"
-											data-paddingbottom="[0,0,0,0]"
-											data-paddingleft="[0,0,0,0]"
-											style="z-index: 5;"><span class="text-white">Help The Poor</span></div>
-										<!-- LAYER NR. 6 -->
-										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
-											id="slide-2-layer-2" 
-											data-x="['center','center','center','center']" data-hoffset="['0','1','0','0']" 
-											data-y="['middle','middle','middle','middle']" data-voffset="['-64','-59','-59','-68']" 
-											data-fontsize="['100','90','80','72']"
-											data-lineheight="['95','90','72','68']"
-											data-width="['535','473','458','403']"
-											data-height="['none','97','76','71']"
-											data-whitespace="nowrap"
-											data-type="text" 
-											data-responsive_offset="on" 
-											data-frames='[{"delay":1000,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-											data-textAlign="['center','center','center','center']"
-											data-paddingtop="[0,0,0,0]"
-											data-paddingright="[0,0,0,0]"
-											data-paddingbottom="[0,0,0,0]"
-											data-paddingleft="[0,0,0,0]"
-											style="z-index: 6;"><span class="text-theme-colored1">Homeless</span> </div>
-										<!-- LAYER NR. 7 -->
-										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
-											id="slide-2-layer-11" 
-											data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-											data-y="['middle','middle','middle','middle']" data-voffset="['35','30','20','11']" 
-											data-fontsize="['84','72','68','64']"
-											data-lineheight="['84','90','72','68']"
-											data-width="['499','546','455','391']"
-											data-height="['none','92','75','71']"
-											data-whitespace="nowrap"
-											data-type="text" 
-											data-responsive_offset="on" 
-											data-frames='[{"delay":1300,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-											data-textAlign="['center','center','center','center']"
-											data-paddingtop="[0,0,0,0]"
-											data-paddingright="[0,0,0,0]"
-											data-paddingbottom="[0,0,0,0]"
-											data-paddingleft="[0,0,0,0]"
-											style="z-index: 7;"><span class="text-white">Children</span></div>
-										<!-- LAYER NR. 8 -->
-										<div class="tp-caption rev-btn  rs-parallaxlevel-1" 
-											id="slide-2-layer-3" 
-											data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-											data-y="['middle','middle','middle','middle']" data-voffset="['145','140','120','105']" 
-											data-fontsize="['18','18','17','14']"
-											data-lineheight="['17','17','17','20']"
-											data-letterspacing="['0','','','']"
-											data-width="none"
-											data-height="none"
-											data-whitespace="nowrap"
-											data-type="button" 
-											data-responsive_offset="on" 
-											data-responsive="off"
-											data-frames='[{"delay":1600,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(247,131,0);"}]'
-											data-textAlign="['inherit','inherit','inherit','inherit']"
-											data-paddingtop="[14,14,14,10]"
-											data-paddingright="[40,40,38,32]"
-											data-paddingbottom="[14,14,14,10]"
-											data-paddingleft="[40,40,38,32]"
-											style="z-index: 8; white-space: nowrap; font-size: 18px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Roboto;background-color:rgb(248,157,53);border-color:transparent;border-style:solid;border-width:3px 3px 3px 3px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Donate Now </div>
-									</li>
-									<!-- SLIDE  -->
-									<li data-index="rs-3" data-transition="slidingoverlayleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="http://wp.kodesolution.live/nonprofit/charity/charito/demo/wp-content/uploads/sites/2/revslider/charito-revolution-slider-fullscreen/slider_bg_01-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-										<!-- MAIN IMAGE -->
-										<img src="../../../../../../../wp.kodesolution.live/nonprofit/charity/charito/demo/wp-content/uploads/sites/2/revslider/charito-revolution-slider-fullscreen/slider_bg_01.jpg"  alt="" title="Index Multipage Layout2"  data-bgposition="0% 40%" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="12" class="rev-slidebg" data-no-retina>
-										<!-- LAYERS -->
-										<!-- LAYER NR. 9 -->
-										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
-											id="slide-3-layer-9" 
-											data-x="['left','left','left','center']" data-hoffset="['56','55','55','0']" 
-											data-y="['middle','middle','middle','middle']" data-voffset="['-140','-140','-120','-139']" 
-											data-fontsize="['32','32','28','28']"
-											data-lineheight="['45','45','36','40']"
-											data-width="['191','192','183','180']"
-											data-height="['48','46','43','41']"
-											data-whitespace="nowrap"
-											data-type="text" 
-											data-responsive_offset="on" 
-											data-frames='[{"delay":700,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-											data-textAlign="['inherit','inherit','inherit','center']"
-											data-paddingtop="[0,0,0,0]"
-											data-paddingright="[0,0,0,0]"
-											data-paddingbottom="[0,0,0,0]"
-											data-paddingleft="[0,0,0,0]"
-											style="z-index: 5;"><span class="text-white">Supply Pure</span></div>
-										<!-- LAYER NR. 10 -->
-										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
-											id="slide-3-layer-2" 
-											data-x="['left','left','left','center']" data-hoffset="['54','55','55','0']" 
-											data-y="['middle','middle','middle','middle']" data-voffset="['-65','-60','-55','-70']" 
-											data-fontsize="['100','90','78','68']"
-											data-lineheight="['95','90','72','68']"
-											data-width="['535','473','421','359']"
-											data-height="['none','97','75','70']"
-											data-whitespace="nowrap"
-											data-type="text" 
-											data-responsive_offset="on" 
-											data-frames='[{"delay":1000,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-											data-textAlign="['inherit','inherit','inherit','center']"
-											data-paddingtop="[0,0,0,0]"
-											data-paddingright="[0,0,0,0]"
-											data-paddingbottom="[0,0,0,0]"
-											data-paddingleft="[0,0,0,0]"
-											style="z-index: 6;"><span class="text-white">Drinking</span></div>
-										<!-- LAYER NR. 11 -->
-										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
-											id="slide-3-layer-11" 
-											data-x="['left','left','left','center']" data-hoffset="['55','55','55','0']" 
-											data-y="['middle','middle','middle','middle']" data-voffset="['35','30','30','12']" 
-											data-fontsize="['110','90','78','68']"
-											data-lineheight="['110','90','72','68']"
-											data-width="['415','330','320','248']"
-											data-height="['none','91','74','69']"
-											data-whitespace="nowrap"
-											data-type="text" 
-											data-responsive_offset="on" 
-											data-frames='[{"delay":1300,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-											data-textAlign="['inherit','inherit','inherit','center']"
-											data-paddingtop="[0,0,0,0]"
-											data-paddingright="[0,0,0,0]"
-											data-paddingbottom="[0,0,0,0]"
-											data-paddingleft="[0,0,0,0]"
-											style="z-index: 7;"><span class="text-white">Water</span></div>
-										<!-- LAYER NR. 12 -->
-										<div class="tp-caption rev-btn  rs-parallaxlevel-1" 
-											id="slide-3-layer-3" 
-											data-x="['left','left','left','center']" data-hoffset="['55','57','55','0']" 
-											data-y="['middle','middle','middle','middle']" data-voffset="['145','142','130','110']" 
-											data-fontsize="['18','18','17','14']"
-											data-lineheight="['17','17','17','20']"
-											data-letterspacing="['0','','','']"
-											data-width="none"
-											data-height="none"
-											data-whitespace="nowrap"
-											data-type="button" 
-											data-responsive_offset="on" 
-											data-responsive="off"
-											data-frames='[{"delay":1600,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(247,131,0);"}]'
-											data-textAlign="['inherit','inherit','inherit','inherit']"
-											data-paddingtop="[14,14,14,10]"
-											data-paddingright="[40,40,40,36]"
-											data-paddingbottom="[14,14,14,10]"
-											data-paddingleft="[40,40,40,36]"
-											style="z-index: 8; white-space: nowrap; font-size: 18px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Roboto;background-color:rgb(248,157,53);border-color:transparent;border-style:solid;border-width:3px 3px 3px 3px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Donate Now </div>
-									</li>
+{{--									<li data-index="rs-2" data-transition="slidingoverlayleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="http://wp.kodesolution.live/nonprofit/charity/charito/demo/wp-content/uploads/sites/2/revslider/charito-revolution-slider-fullscreen/slider_bg_02-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">--}}
+{{--										<!-- MAIN IMAGE -->--}}
+{{--										<img src="../../../../../../../wp.kodesolution.live/nonprofit/charity/charito/demo/wp-content/uploads/sites/2/revslider/charito-revolution-slider-fullscreen/slider_bg_02.jpg"  alt="" title="Index Multipage Layout2"  data-bgposition="0% 30%" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="12" class="rev-slidebg" data-no-retina>--}}
+{{--										<!-- LAYERS -->--}}
+{{--										<!-- LAYER NR. 5 -->--}}
+{{--										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" --}}
+{{--											id="slide-2-layer-9" --}}
+{{--											data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" --}}
+{{--											data-y="['middle','middle','middle','middle']" data-voffset="['-140','-140','-116','-136']" --}}
+{{--											data-fontsize="['32','30','20','28']"--}}
+{{--											data-lineheight="['45','45','36','40']"--}}
+{{--											data-width="['239','206','247','215']"--}}
+{{--											data-height="['49','47','44','42']"--}}
+{{--											data-whitespace="nowrap"--}}
+{{--											data-type="text" --}}
+{{--											data-responsive_offset="on" --}}
+{{--											data-frames='[{"delay":700,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'--}}
+{{--											data-textAlign="['center','center','center','center']"--}}
+{{--											data-paddingtop="[0,0,0,0]"--}}
+{{--											data-paddingright="[0,0,0,0]"--}}
+{{--											data-paddingbottom="[0,0,0,0]"--}}
+{{--											data-paddingleft="[0,0,0,0]"--}}
+{{--											style="z-index: 5;"><span class="text-white">Help The Poor</span></div>--}}
+{{--										<!-- LAYER NR. 6 -->--}}
+{{--										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" --}}
+{{--											id="slide-2-layer-2" --}}
+{{--											data-x="['center','center','center','center']" data-hoffset="['0','1','0','0']" --}}
+{{--											data-y="['middle','middle','middle','middle']" data-voffset="['-64','-59','-59','-68']" --}}
+{{--											data-fontsize="['100','90','80','72']"--}}
+{{--											data-lineheight="['95','90','72','68']"--}}
+{{--											data-width="['535','473','458','403']"--}}
+{{--											data-height="['none','97','76','71']"--}}
+{{--											data-whitespace="nowrap"--}}
+{{--											data-type="text" --}}
+{{--											data-responsive_offset="on" --}}
+{{--											data-frames='[{"delay":1000,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'--}}
+{{--											data-textAlign="['center','center','center','center']"--}}
+{{--											data-paddingtop="[0,0,0,0]"--}}
+{{--											data-paddingright="[0,0,0,0]"--}}
+{{--											data-paddingbottom="[0,0,0,0]"--}}
+{{--											data-paddingleft="[0,0,0,0]"--}}
+{{--											style="z-index: 6;"><span class="text-theme-colored1">Homeless</span> </div>--}}
+{{--										<!-- LAYER NR. 7 -->--}}
+{{--										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" --}}
+{{--											id="slide-2-layer-11" --}}
+{{--											data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" --}}
+{{--											data-y="['middle','middle','middle','middle']" data-voffset="['35','30','20','11']" --}}
+{{--											data-fontsize="['84','72','68','64']"--}}
+{{--											data-lineheight="['84','90','72','68']"--}}
+{{--											data-width="['499','546','455','391']"--}}
+{{--											data-height="['none','92','75','71']"--}}
+{{--											data-whitespace="nowrap"--}}
+{{--											data-type="text" --}}
+{{--											data-responsive_offset="on" --}}
+{{--											data-frames='[{"delay":1300,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'--}}
+{{--											data-textAlign="['center','center','center','center']"--}}
+{{--											data-paddingtop="[0,0,0,0]"--}}
+{{--											data-paddingright="[0,0,0,0]"--}}
+{{--											data-paddingbottom="[0,0,0,0]"--}}
+{{--											data-paddingleft="[0,0,0,0]"--}}
+{{--											style="z-index: 7;"><span class="text-white">Children</span></div>--}}
+{{--										<!-- LAYER NR. 8 -->--}}
+{{--										<div class="tp-caption rev-btn  rs-parallaxlevel-1" --}}
+{{--											id="slide-2-layer-3" --}}
+{{--											data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" --}}
+{{--											data-y="['middle','middle','middle','middle']" data-voffset="['145','140','120','105']" --}}
+{{--											data-fontsize="['18','18','17','14']"--}}
+{{--											data-lineheight="['17','17','17','20']"--}}
+{{--											data-letterspacing="['0','','','']"--}}
+{{--											data-width="none"--}}
+{{--											data-height="none"--}}
+{{--											data-whitespace="nowrap"--}}
+{{--											data-type="button" --}}
+{{--											data-responsive_offset="on" --}}
+{{--											data-responsive="off"--}}
+{{--											data-frames='[{"delay":1600,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(247,131,0);"}]'--}}
+{{--											data-textAlign="['inherit','inherit','inherit','inherit']"--}}
+{{--											data-paddingtop="[14,14,14,10]"--}}
+{{--											data-paddingright="[40,40,38,32]"--}}
+{{--											data-paddingbottom="[14,14,14,10]"--}}
+{{--											data-paddingleft="[40,40,38,32]"--}}
+{{--											style="z-index: 8; white-space: nowrap; font-size: 18px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Roboto;background-color:rgb(248,157,53);border-color:transparent;border-style:solid;border-width:3px 3px 3px 3px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Donate Now </div>--}}
+{{--									</li>--}}
+{{--									<!-- SLIDE  -->--}}
+{{--									<li data-index="rs-3" data-transition="slidingoverlayleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="http://wp.kodesolution.live/nonprofit/charity/charito/demo/wp-content/uploads/sites/2/revslider/charito-revolution-slider-fullscreen/slider_bg_01-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">--}}
+{{--										<!-- MAIN IMAGE -->--}}
+{{--										<img src="../../../../../../../wp.kodesolution.live/nonprofit/charity/charito/demo/wp-content/uploads/sites/2/revslider/charito-revolution-slider-fullscreen/slider_bg_01.jpg"  alt="" title="Index Multipage Layout2"  data-bgposition="0% 40%" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="12" class="rev-slidebg" data-no-retina>--}}
+{{--										<!-- LAYERS -->--}}
+{{--										<!-- LAYER NR. 9 -->--}}
+{{--										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" --}}
+{{--											id="slide-3-layer-9" --}}
+{{--											data-x="['left','left','left','center']" data-hoffset="['56','55','55','0']" --}}
+{{--											data-y="['middle','middle','middle','middle']" data-voffset="['-140','-140','-120','-139']" --}}
+{{--											data-fontsize="['32','32','28','28']"--}}
+{{--											data-lineheight="['45','45','36','40']"--}}
+{{--											data-width="['191','192','183','180']"--}}
+{{--											data-height="['48','46','43','41']"--}}
+{{--											data-whitespace="nowrap"--}}
+{{--											data-type="text" --}}
+{{--											data-responsive_offset="on" --}}
+{{--											data-frames='[{"delay":700,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'--}}
+{{--											data-textAlign="['inherit','inherit','inherit','center']"--}}
+{{--											data-paddingtop="[0,0,0,0]"--}}
+{{--											data-paddingright="[0,0,0,0]"--}}
+{{--											data-paddingbottom="[0,0,0,0]"--}}
+{{--											data-paddingleft="[0,0,0,0]"--}}
+{{--											style="z-index: 5;"><span class="text-white">Supply Pure</span></div>--}}
+{{--										<!-- LAYER NR. 10 -->--}}
+{{--										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" --}}
+{{--											id="slide-3-layer-2" --}}
+{{--											data-x="['left','left','left','center']" data-hoffset="['54','55','55','0']" --}}
+{{--											data-y="['middle','middle','middle','middle']" data-voffset="['-65','-60','-55','-70']" --}}
+{{--											data-fontsize="['100','90','78','68']"--}}
+{{--											data-lineheight="['95','90','72','68']"--}}
+{{--											data-width="['535','473','421','359']"--}}
+{{--											data-height="['none','97','75','70']"--}}
+{{--											data-whitespace="nowrap"--}}
+{{--											data-type="text" --}}
+{{--											data-responsive_offset="on" --}}
+{{--											data-frames='[{"delay":1000,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'--}}
+{{--											data-textAlign="['inherit','inherit','inherit','center']"--}}
+{{--											data-paddingtop="[0,0,0,0]"--}}
+{{--											data-paddingright="[0,0,0,0]"--}}
+{{--											data-paddingbottom="[0,0,0,0]"--}}
+{{--											data-paddingleft="[0,0,0,0]"--}}
+{{--											style="z-index: 6;"><span class="text-white">Drinking</span></div>--}}
+{{--										<!-- LAYER NR. 11 -->--}}
+{{--										<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" --}}
+{{--											id="slide-3-layer-11" --}}
+{{--											data-x="['left','left','left','center']" data-hoffset="['55','55','55','0']" --}}
+{{--											data-y="['middle','middle','middle','middle']" data-voffset="['35','30','30','12']" --}}
+{{--											data-fontsize="['110','90','78','68']"--}}
+{{--											data-lineheight="['110','90','72','68']"--}}
+{{--											data-width="['415','330','320','248']"--}}
+{{--											data-height="['none','91','74','69']"--}}
+{{--											data-whitespace="nowrap"--}}
+{{--											data-type="text" --}}
+{{--											data-responsive_offset="on" --}}
+{{--											data-frames='[{"delay":1300,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'--}}
+{{--											data-textAlign="['inherit','inherit','inherit','center']"--}}
+{{--											data-paddingtop="[0,0,0,0]"--}}
+{{--											data-paddingright="[0,0,0,0]"--}}
+{{--											data-paddingbottom="[0,0,0,0]"--}}
+{{--											data-paddingleft="[0,0,0,0]"--}}
+{{--											style="z-index: 7;"><span class="text-white">Water</span></div>--}}
+{{--										<!-- LAYER NR. 12 -->--}}
+{{--										<div class="tp-caption rev-btn  rs-parallaxlevel-1" --}}
+{{--											id="slide-3-layer-3" --}}
+{{--											data-x="['left','left','left','center']" data-hoffset="['55','57','55','0']" --}}
+{{--											data-y="['middle','middle','middle','middle']" data-voffset="['145','142','130','110']" --}}
+{{--											data-fontsize="['18','18','17','14']"--}}
+{{--											data-lineheight="['17','17','17','20']"--}}
+{{--											data-letterspacing="['0','','','']"--}}
+{{--											data-width="none"--}}
+{{--											data-height="none"--}}
+{{--											data-whitespace="nowrap"--}}
+{{--											data-type="button" --}}
+{{--											data-responsive_offset="on" --}}
+{{--											data-responsive="off"--}}
+{{--											data-frames='[{"delay":1600,"speed":740,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(247,131,0);"}]'--}}
+{{--											data-textAlign="['inherit','inherit','inherit','inherit']"--}}
+{{--											data-paddingtop="[14,14,14,10]"--}}
+{{--											data-paddingright="[40,40,40,36]"--}}
+{{--											data-paddingbottom="[14,14,14,10]"--}}
+{{--											data-paddingleft="[40,40,40,36]"--}}
+{{--											style="z-index: 8; white-space: nowrap; font-size: 18px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Roboto;background-color:rgb(248,157,53);border-color:transparent;border-style:solid;border-width:3px 3px 3px 3px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Donate Now </div>--}}
+{{--									</li>--}}
 								</ul>
 								<div class="tp-bannertimer tp-bottom"></div>
 							</div>
@@ -738,7 +738,7 @@
 										<div class="tm-gallery box-hover-effect">
 											<div class="effect-wrapper">
 												<div class="thumb gradient-effect">
-													<img src="images/gallery/1.jpg" alt=""/>          
+													<img src="{{ asset('uploads\contents\photos\gallery/1.jpg') }}" alt=""/>
 												</div>
 												<div class="overlay-shade shade-black"></div>
 												<div class="text-holder text-holder-bottom-left">
@@ -747,7 +747,7 @@
 												<div class="icons-holder icons-holder-middle">
 													<div class="icons-holder-inner">
 														<div class="styled-icons icon-dark icon-circled icon-theme-colored1">
-															<a class="lightgallery-trigger styled-icons-item" href="images/gallery/1.jpg" title="Gallery 1" data-exthumbimage="images/gallery/1.jpg" data-src="images/gallery/1.jpg">
+															<a class="lightgallery-trigger styled-icons-item" href="{{ asset('uploads\contents\photos\gallery/1.jpg') }}" title="Gallery 1" data-exthumbimage="{{ asset('uploads\contents\photos\gallery/1.jpg') }}" data-src="{{ asset('uploads\contents\photos\gallery/1.jpg') }}">
 																<i class="fa fa-plus"></i>
 															</a>
 														</div>
@@ -762,7 +762,7 @@
 										<div class="tm-gallery box-hover-effect">
 											<div class="effect-wrapper">
 												<div class="thumb gradient-effect">
-													<img src="images/gallery/2.jpg" alt=""/>
+													<img src="{{ asset('uploads\contents\photos\gallery/2.jpg') }}" alt=""/>
 												</div>
 												<div class="overlay-shade shade-black"></div>
 												<div class="text-holder text-holder-bottom-left">
@@ -786,7 +786,7 @@
 										<div class="tm-gallery box-hover-effect">
 											<div class="effect-wrapper">
 												<div class="thumb gradient-effect">
-													<img src="images/gallery/3.jpg" alt=""/>         
+													<img src="{{ asset('uploads\contents\photos\gallery/3.jpg') }}" alt=""/>
 												</div>
 												<div class="overlay-shade shade-black"></div>
 												<div class="text-holder text-holder-bottom-left">
@@ -810,7 +810,7 @@
 										<div class="tm-gallery box-hover-effect">
 											<div class="effect-wrapper">
 												<div class="thumb gradient-effect">
-													<img src="images/gallery/4.jpg" alt=""/>          
+													<img src="{{ asset('uploads\contents\photos\gallery/4.jpg') }}" alt=""/>
 												</div>
 												<div class="overlay-shade shade-black"></div>
 												<div class="text-holder text-holder-bottom-left">
@@ -834,7 +834,7 @@
 										<div class="tm-gallery box-hover-effect">
 											<div class="effect-wrapper">
 												<div class="thumb gradient-effect">
-													<img src="images/gallery/5.jpg" alt=""/>          
+													<img src="{{ asset('uploads\contents\photos\gallery/5.jpg') }}" alt=""/>
 												</div>
 												<div class="overlay-shade shade-black"></div>
 												<div class="text-holder text-holder-bottom-left">
@@ -858,7 +858,7 @@
 										<div class="tm-gallery box-hover-effect">
 											<div class="effect-wrapper">
 												<div class="thumb gradient-effect">
-													<img src="images/gallery/6.jpg" alt=""/>          
+													<img src="{{ asset('uploads\contents\photos\gallery/6.jpg') }}" alt=""/>
 												</div>
 												<div class="overlay-shade shade-black"></div>
 												<div class="text-holder text-holder-bottom-left">
