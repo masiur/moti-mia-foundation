@@ -7,9 +7,9 @@
 						<div id="tm_widget_contact_info-1" class=" split-nav-menu clearfix widget widget-contact-info clearfix">
 							<div class="tm-widget tm-widget-contact-info contact-info contact-info-style1  contact-icon-theme-colored1">
 								<div class="thumb">
-									<img alt="Logo" src="images/logo-wide-white.png">
+									<img alt="Logo" src="{{ asset('assets/front/images/logo.png') }}">
 								</div>
-								<div class="description">203, Envato Labs, Behind Alis Steet, Melbourne, Australia.</div>
+								<div class="description">দেওয়ানপাড়া মোড়, জামালপুর পৌরসভা, জামালপুর, বাংলাদেশ</div>
 								<ul>
 									<li class="contact-email">
 										<div class="icon"><i class="icon-globe"></i></div>
@@ -28,15 +28,15 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-6 col-lg-3">
-						<div id="tm_widget_instagram_feed-1" class=" split-nav-menu clearfix widget widget-instagram-feed clearfix">
-							<h4 class="widget-title ">Instagram Feed</h4>
-							<div id="instafeed-375735" class="tm-widget tm-widget-instagram-feed instagram-feed-grid " data-userid="3450544574" data-accesstoken="3450544574.1677ed0.7d0725a565914415b40a4953c17bcdc9" data-limit="9" data-resolution="thumbnail"></div>
-						</div>
-					</div>
+{{--					<div class="col-sm-6 col-md-6 col-lg-3">--}}
+{{--						<div id="tm_widget_instagram_feed-1" class=" split-nav-menu clearfix widget widget-instagram-feed clearfix">--}}
+{{--							<h4 class="widget-title ">Instagram Feed</h4>--}}
+{{--							<div id="instafeed-375735" class="tm-widget tm-widget-instagram-feed instagram-feed-grid " data-userid="3450544574" data-accesstoken="3450544574.1677ed0.7d0725a565914415b40a4953c17bcdc9" data-limit="9" data-resolution="thumbnail"></div>--}}
+{{--						</div>--}}
+{{--					</div>--}}
 					<div class="col-sm-6 col-md-6 col-lg-3">
 						<div id="tm_widget_blog_list-1" class=" split-nav-menu clearfix widget widget-blog-list clearfix">
-							<h4 class="widget-title ">Latest News</h4>
+							<h4 class="widget-title ">সর্বশেষ আয়োজনসমূহ</h4>
 							<div class="tm-widget tm-widget-blog-list "> 
 								<!-- the loop -->
 								<article class="post media-post clearfix"> <a class="post-thumb" href="#"><img width="100" height="70" src="images/blog/3.jpg" class="" alt="" /></a>
@@ -63,7 +63,7 @@
 					</div>
 					<div class="col-sm-6 col-md-6 col-lg-3">
 						<div id="tm_widget_opening_hours_compressed-1" class=" split-nav-menu clearfix widget widget-opening-hours-compressed clearfix">
-							<h4 class="widget-title ">Opening Hours</h4>
+							<h4 class="widget-title ">যখন পাওয়া যাবে</h4>
 							<ul class="tm-widget tm-widget-opening-hours tm-widget-opening-hours-compressed opening-hours border-dark">
 								<li class="clearfix"> <span>Monday - Tuesday</span>
 									<div class="value">9.00 - 17.00</div>
